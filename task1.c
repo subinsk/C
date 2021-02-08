@@ -47,7 +47,7 @@ void _strtol()
      printf("\n \n \n =============================This is _strtol() function ====================================== \n");
     char str[30] = "2030300 later string";
    char *ptr;
-   double get;
+   long get;
 
    get = strtol(str, &ptr,10);
    printf("The number(unsigned long integer) is %ld\n", get);
